@@ -1,4 +1,4 @@
-build_image: ubuntu:14.04
+build_image: shippableimages/ubuntu1404_go
 
 script:
   - wget www.baidu.com
