@@ -1,5 +1,6 @@
 build_image: shippableimages/ubuntu1404_go
 
 script:
+  - sudo apt-get install -y wget
   - wget www.baidu.com
   - echo "Done"
